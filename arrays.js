@@ -43,6 +43,6 @@ function removeElementFromEndOfArray(array) {
   return array
 }
 function removeElementFromEndOfArray(array) {
-  array.splice(2,1)
+[...array.slice(0,2), ...array.slice(3)]
   return array
 }
