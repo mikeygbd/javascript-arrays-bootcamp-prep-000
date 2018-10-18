@@ -23,7 +23,3 @@ var array = [1]
 function destructivelyAddElementToEndOfArray(array, element) {
   return [...array, 'foo']
 }
-function destructivelyAddElementToEndOfArray(array, element) {
-  array.shift('foo')
-  return array
-}
